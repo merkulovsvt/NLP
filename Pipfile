@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+tqdm = "*"
+datasets = "*"
+accelerate = "*"
+evaluate = "*"
+scipy = "*"
+scikit-learn = "*"
+pandas = "*"
+numpy = "*"
+peft = "*"
+bitsandbytes = "*"
+transformers = {extras = ["torch"], version = "*"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
